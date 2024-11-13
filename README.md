@@ -25,7 +25,7 @@ Too hard to call cl.exe to compile, link, and run MSVC small projects? Using cpp
     compile_sources(
         src_files=source_files,
         fo=None,  # Defaults to "./build"
-        fe=None,  # Defaults to "./build/benchmark.exe"
+        fe=None,  # Defaults to "./build/x64/**your_file_name**.exe"
         working_dir=".",  # Current directory
         compiler_flags=additional_compiler_flags,
         linker_flags=additional_linker_flags,
