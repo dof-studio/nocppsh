@@ -499,7 +499,7 @@ if __name__ == "__main__":
     compile_sources(
         src_files=source_files,
         fo=None,  # Defaults to "./build"
-        fe=None,  # Defaults to "./build/benchmark-box-cpp.exe"
+        fe=None,  # Defaults to "./build/example.exe"
         working_dir=".",  # Current directory
         compiler_flags=additional_compiler_flags,
         linker_flags=additional_linker_flags,
